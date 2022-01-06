@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+/* *************************** Fonts Imports ************************************ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* *************************** Hero Section Design Start ************************************ */
+
+.hero {
+    display: flex;
+    margin: 0 7.5% 0 7.5%;
+}
+
+.hero-text {
+    width: 100%;
+    padding: 100px 0 0 0;
+}
+
+.herotext-tittle {
+    border-left: 4px solid lightseagreen;
+}
+
+.herotext-tittle h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    padding: 0 0 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.herotext-perah {
+    font-size: 18px;
+    padding: 34px 0;
+    text-align: left;
+    letter-spacing: 2.2px;
+}
+
+.hero-button {
+    padding: 16px 0;
+}
+
+.hero-button button {
+    padding: 8.5px 22px;
+    border: none;
+    background: #ff5959;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.hero-disable-text {
+    padding-top: 20px;
+    font-size: 16px;
+    color: #434343;
+    letter-spacing: 2.2px;
+}
+
+
+/* *************************** Mission 2022 Section Design Start ************************************ */
+
+.mission-section {
+    margin: 5% 7.5%;
+}
+
+.mission-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.mission-title h1 {
+    font-size: 48px;
+}
+
+.layout-wraper {
+    display: flex;
+    gap: 15px;
+}
+
+.layout-1 {
+    background-color: #4f9da6;
+    border-radius: 10px;
+}
+
+.layout-2 {
+    background-color: #ff5959;
+    border-radius: 10px;
+}
+
+.layout-3 {
+    background-color: #fff4d6;
+    border-radius: 10px;
+}
+
+.layout-img {
+    width: 141px;
+    height: 141px;
+    margin-left: 35px;
+    padding: 5px 0;
+}
+
+.layout-img img {
+    width: 100%;
+}
+
+.layout-title {
+    padding: 10px 50px 0 50px;
+    font-size: 24px;
+}
+
+.layout-perah {
+    padding: 40px 50px;
+}
+
+
+/* *************************** Developer Banner 2022 Section Design Start ************************************ */
+
+.develop-section {
+    margin: 5% 7.5%;
+}
+
+.develop-banner {
+    display: flex;
+    gap: 60px;
+    margin: 20px 0;
+}
+
+.banner-pic {
+    width: 400px;
+    height: 400px;
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: repeat-x;
+    background-position: left center;
+    background-size: contain;
+}
+
+.banner-pic img {
+    width: 100%;
+}
+
+.develop-txt {
+    width: 100%;
+    padding: 20px;
+}
+
+.devtext-tittle {
+    font-size: 36;
+}
+
+.dev-perah {
+    padding: 8px 0;
+}
+
+.dev-perah p {
+    font-size: 18px;
+    letter-spacing: 2.5px;
+}
+
+.dev-button {
+    padding: 8px 0;
+    font-size: 16px;
+}
+
+.dev-button button {
+    padding: 8.5px 22px;
+    border: none;
+    background: #ff5959;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* *************************** Footer Design Start ************************************ */
+
+footer {
+    background-color: #0b0d17;
+}
+
+.foter-wraper {
+    margin: 0 7.5%;
+}
+
+.footer-tittle {
+    padding: 24px 0;
+    text-align: center;
+}
+
+.footer-tittle h1 {
+    color: white;
+    font-size: 36;
+    font-family: "Lobster", cursive;
+}
+
+.foter-perah {
+    padding-bottom: 34px;
+    text-align: center;
+}
+
+.foter-perah p {
+    color: #d9dbe1;
+    font-size: 14;
+    font-family: "Lobster", cursive;
+}
